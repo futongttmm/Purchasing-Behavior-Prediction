@@ -48,30 +48,30 @@ Sales data for existing customers, consisting of the following fields:
 
 
 ## Data Preparation and Data Exploration
-**[DataPreparation.ipynb](.\AdventureWorksCyclesPrediction\DataPreparation.ipynb)**   
+**[DataPreparation.ipynb](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/DataPreparation.ipynb)**   
 
 Clean the data by replacing any missing values and removing duplicate rows. Here, the missing values are coded by NaN (np.nan).
 In this dataset, each customer is identified by a unique customer ID. 
 The file without duplicated records is retained in 
-*[PreparedData\AdvWorksCusts_Prepared.csv](.\AdventureWorksCyclesPrediction\PreparedData\AdvWorksCusts_Prepared.csv), 
-[PreparedData\AW_AveMonthSpend_Prepared.csv](.\AdventureWorksCyclesPrediction\PreparedData\AW_AveMonthSpend_Prepared.csv), 
-[PreparedData\AW_BikeBuyer_Prepared.csv](.\AdventureWorksCyclesPrediction\PreparedData\AW_BikeBuyer_Prepared.csv)*.
+*[PreparedData\AdvWorksCusts_Prepared.csv](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/PreparedData/AdvWorksCusts_Prepared.csv), 
+[PreparedData\AW_AveMonthSpend_Prepared.csv](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/PreparedData/AW_AveMonthSpend_Prepared.csv), 
+[PreparedData\AW_BikeBuyer_Prepared.csv](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/PreparedData/AW_BikeBuyer_Prepared.csv)*.
 
 Prepare the training and testing features and labels by converting categorical variables into one-hot vectors and numeric variables into scaling values, 
 and store the array for features and labels as
-*[PreparedData\BikeBuyerFeatures.csv](.\AdventureWorksCyclesPrediction\PreparedData\BikeBuyerFeatures.csv), 
-[PreparedData\BikeBuyerLabels.csv](.\AdventureWorksCyclesPrediction\PreparedData\BikeBuyerLabels.csv), 
-[PreparedData\AveMonthSpendFeatures.csv](.\AdventureWorksCyclesPrediction\PreparedData\AveMonthSpendFeatures.csv), 
-[PreparedData\AveMonthSpendLabels.csv](.\AdventureWorksCyclesPrediction\PreparedData\AveMonthSpendLabels.csv)*.
+*[PreparedData\BikeBuyerFeatures.csv](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/PreparedData/BikeBuyerFeatures.csv), 
+[PreparedData\BikeBuyerLabels.csv](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/PreparedData/BikeBuyerLabels.csv), 
+[PreparedData\AveMonthSpendFeatures.csv](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/PreparedData/AveMonthSpendFeatures.csv), 
+[PreparedData\AveMonthSpendLabels.csv](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/PreparedData/AveMonthSpendLabels.csv)*.
 
-**[DataExploration.ipynb](.\AdventureWorksCyclesPrediction\ModelImprovement\DataExploration.ipynb)**
+**[DataExploration.ipynb](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/ModelImprovment/DataExploration.ipynb)**
 
 Explore the data by calculating summary and descriptive statistics for the features in the dataset, 
 calculating correlations between features, and creating data visualizations to determine apparent relationships in the data.
 
 
 ## Classification for Predicting Potential Customers
-**[BikeBuyerPrediction.ipynb](.\AdventureWorksCyclesPrediction\BikeBuyerPrediction.ipynb)**
+**[BikeBuyerPrediction.ipynb](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/BikeBuyerPrediction.ipynb)**
 
 1. Use the Adventure Works Cycles customer data you worked with in to create a classification model that predicts whether or not a customer will purchase a bike. 
 2. The model predicts bike purchasing for new customers for whom no information about average monthly spend or previous bike purchases is available.
@@ -81,7 +81,7 @@ calculating correlations between features, and creating data visualizations to d
 
 ## Regression for Estimate Average Monthly Spend of New Customers
 
-**[AveMonthSpendPrediction.ipynb](.\AdventureWorksCyclesPrediction\AveMonthSpendPrediction.ipynb)**
+**[AveMonthSpendPrediction.ipynb](https://gitlab.com/TTMM__/purchasing-behavior-prediction/-/blob/master/AveMonthSpendPrediction.ipynb)**
 
 1. Use the Adventure Works Cycles customer data you worked with in to create a regression model that predicts a customer's average monthly spend. 
 2. The model predicts average monthly spend for new customers for whom no information about average monthly spend or previous bike purchases is available.
